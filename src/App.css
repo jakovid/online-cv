@@ -1,0 +1,42 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#headerName {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#headerTitle {
+    font-size: 1.5rem;
+    color: darkgray;
+}
+
+#headerRight {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+}
+
+.headerImage {
+    height: 2rem;
+}
+
+.educationItem {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.educationItemName {
+    font-size: 1.5rem;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
