@@ -1,3 +1,7 @@
+* {
+    margin: 0.5rem;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -25,7 +29,14 @@
     height: 2rem;
 }
 
-.educationItem {
+#aboutMeTitle, #experienceTitle, #educationTitle {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: dashed darkgray;
+    padding: 0.5rem;
+}
+
+.educationItem, .experienceItem {
     display: flex;
     flex-direction: row;
     gap: 2rem;
