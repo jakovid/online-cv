@@ -12,8 +12,12 @@ export default function Education(){
                     <div class='educationItemDuration'>2021 - Present</div>
                 </div>
                 <div class='educationItemRight'>
-                    <div class='educationItemLocation'>Taipei, Taiwan</div>
-                    <div class='educationItemDescription'></div>
+                    <div class='educationItemLocation'>Remote</div>
+                    <div class='educationItemDescription'>I am self teaching myself the JavaScript curriculum, which includes advanced HTML, CSS, JS, ReactJS, 
+                    NodeJS, MongoDB, Firebase, and Express. Projects created include: Tic Tac Toe, Drawing Pad, Rock Paper Scissors, Todo-List, Mock Landing Pages.</div>
+                    <div class='educationItemLanguages'>
+                        <div class='lang'>CSS</div>,  <div class='lang'>HTML</div>, <div class='lang'>JavaScript</div>, <div class='lang'>ReactJS</div>
+                    </div>
                 </div>
             </div>
 
@@ -25,7 +29,10 @@ export default function Education(){
                 </div>
                 <div class='educationItemRight'>
                     <div class='educationItemLocation'>Shanghai, China</div>
-                    <div class='educationItemDescription'></div>
+                    <div class='educationItemDescription'>Thesis: Emerging and Traditional Donors in Developing States: The Determinants of Chinese and American Official Financing in Africa.</div>
+                    <div class='educationItemLanguages'>
+                        <div class='lang'>Stata</div>
+                    </div>
                 </div>
             </div>
 
@@ -37,7 +44,7 @@ export default function Education(){
                 </div>
                 <div class='educationItemRight'>
                     <div class='educationItemLocation'>Shanghai, China</div>
-                    <div class='educationItemDescription'></div>
+                    <div class='educationItemDescription'>I enrolled to prepare myself for work and school in China.</div>
                 </div>
             </div>
 
@@ -49,7 +56,7 @@ export default function Education(){
                 </div>
                 <div class='educationItemRight'>
                     <div class='educationItemLocation'>Oxford, Ohio</div>
-                    <div class='educationItemDescription'></div>
+                    <div class='educationItemDescription'>My study abroad opportunities in China, Japan, and South Korea led to a deep appreciation for the world's various cultures.</div>
                 </div>
             </div>
 

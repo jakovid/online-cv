@@ -29,21 +29,57 @@
     height: 2rem;
 }
 
-#aboutMeTitle, #experienceTitle, #educationTitle {
+#aboutMeTitle, #experienceTitle, #educationTitle, #scholarshipsTitle {
     font-size: 2rem;
     text-align: center;
     border-bottom: dashed darkgray;
     padding: 0.5rem;
 }
 
+#aboutMain {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+#profilePic {
+    height: 10rem;
+    border-radius: 50%;
+}
+
 .educationItem, .experienceItem {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.educationItemLocation, .experienceItemLocation {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 0.15rem;
+    border-radius: 5px;
 }
 
 .educationItemName {
     font-size: 1.5rem;
+}
+
+.educationItemLanguages {
+    display: flex;
+    align-items: baseline;
+    border-top: solid lightgray 1px;
+}
+
+.lang{
+    background-color: rgb(253, 145, 145);
+    color: darkred;
+    padding: 0.1rem;
+    border-radius: 5px;
+}
+
+#csc {
+    text-align: center;
 }
 
 #footer {
